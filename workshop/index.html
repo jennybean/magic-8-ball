@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Magic 8-Ball</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1 class="title">Magic 8-Ball</h1>
+    <!--
+      * Can you add a paragraph explaining we only answer "Yes" or "No" questions?
+      * Can you change the color? The font-size? Make it bold?
+      -->
+    <textarea id="input"></textarea>
+    <br>
+    <button class="button" onclick="ask()">Ask</button>
+    <div id="eight-ball">
+      <div id="float">
+        <div id="eight">8</div>
+        <div id="answer" class="hidden"></div>
+      </div>
+    </div>
+  </body>
+</html>
